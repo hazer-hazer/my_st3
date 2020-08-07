@@ -1,0 +1,12 @@
+{
+    "scope": "text.html - source - meta.tag, punctuation.definition.tag.begin",
+    "completions":
+    [
+        { "trigger": "ghbdtn", "contents": "<ghbdtn each=\"$1\" as=\"$2\">$0</ghbdtn>" },
+        { "trigger": "foobar", "contents": "<foobar>$0</foobar>" },
+
+        "baz",
+        "quux",
+        "thneed"            
+    ]
+}

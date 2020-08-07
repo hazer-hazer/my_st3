@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+
+name: Yocto
+
+file_extensions:
+  - yo
+scope: source.yo
+
+variables:
+  id: \b[[:alpha:]_][[:alnum:]_]\b
+  # pizdez
+  block_comment: (?:\$(?:(?:[^*]|\*(?!/))*))
+  keywords: \b(null|true|false|var|val|func|return|if|elif|else|while|class)\b
+
+
+
+contexts:
+  main:
+    - match: {{keywords}}
+      scope: keyword.control.c
+
+    string:
+      - meta_scope: string.quoted.double.c
+      - match: \\.
+        scope: constant.character.escape.c
+      - match: [\'\"]
+        pop: true

@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/Materialize/schemes/Material Dracula.tmTheme",
+	"folder_exclude_patterns":
+	[
+		"node_modules",
+		".git"
+	],
+	"font_size": 13,
+	"gni_003": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"theme": "Material Dracula.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

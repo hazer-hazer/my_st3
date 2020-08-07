@@ -1,0 +1,10 @@
+{
+	"important": {
+		"underline": true
+	},
+	"TODO": {
+		"color": {
+			"underline": true
+		}
+	}
+}
